@@ -1,0 +1,9 @@
+bricks:
+  flutter_mvvm_bloc:
+    path: flutter_mvvm_bloc
+  flutter_mvvm_provider:
+    path: flutter_mvvm_provider
+  flutter_mvvm_riverpod:
+    path: flutter_mvvm_riverpod
+  flutter_empty:
+    path: flutter_empty
