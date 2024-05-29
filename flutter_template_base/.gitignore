@@ -1,0 +1,3 @@
+.idea/*
+__brick__/{{project_name.snakeCase()}}/lib/generated/
+__brick__/{{project_name.snakeCase()}}/lib/l10n/
