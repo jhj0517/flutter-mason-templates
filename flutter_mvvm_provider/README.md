@@ -67,26 +67,3 @@ assets/
 └── images/                                    (image asset files)
 .env                                           (important variables such as API Key)
 ```
-
-# How to Make & Use Template
-1. Install Mason CLI ( If it's not installed )
-   ```
-   dart pub global activate mason_cli
-   ```
-2. Git clone this repository
-   ```
-   git clone https://github.com/jhj0517/flutter_mvvm_provider_template.git
-   ```
-3. Add the brick as the global (you can change the brick name in [`brick.yaml`](https://github.com/jhj0517/flutter_mvvm_provider_template/blob/master/brick.yaml) as you want. )
-   ```
-   mason add -g flutter_mvvm_provider --path ./
-   ```
-4. Check that the brick is added correctly.
-    ```
-    mason ls -g
-    ├── flutter_mvvm_provider 0.1.0  // it prints something like this
-    ```
-5. You can now start a new project with your own template
-   ```
-   mason make flutter_mvvm_provider
-   ```
