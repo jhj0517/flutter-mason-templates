@@ -17,26 +17,3 @@ There're 4 prompts for the brick.
 3. `application_id` : App id after the organization name. Used on multiple platforms with `org_name`.
 4. `description` : Project description.
 
-# How to Make & Use Template
-1. Install Mason CLI ( If it's not installed )
-   ```
-   dart pub global activate mason_cli
-   ```
-2. Git clone the repository
-   ```
-   git clone https://github.com/jhj0517/flutter_template_base.git
-   ```
-3. Implement your own template in the `__brick__/{{project_name.snakeCase()}}/lib`.
-4. Add the template as the global brick. (you can change the brick name in [`brick.yaml`](https://github.com/jhj0517/flutter_template_base/blob/master/brick.yaml) as you want. )
-   ```
-   mason add -g flutter_template_base --path ./
-   ```
-5. Check that the brick is added correctly.
-    ```
-    mason ls -g
-    ├── flutter_template_base 0.1.0  // it prints something like this
-    ```
-6. You can now start a new project with your own template
-   ```
-   mason make flutter_template_base
-   ```
