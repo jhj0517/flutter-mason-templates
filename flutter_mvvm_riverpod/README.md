@@ -1,5 +1,5 @@
 # Flutter MVVM (Riverpod) Template
-Simple template for MVVM with in Flutter with [Riverpod pattern](https://riverpod.dev/docs/introduction/getting_started). 
+Simple template for MVVM with in Flutter with [Riverpod](https://riverpod.dev/docs/introduction/getting_started). 
 This template is integrated with [Mason](https://github.com/felangel/mason).
 # Architecture
 ![Flowcharts - Page 1](https://github.com/jhj0517/flutter_mvvm_riverpod_template/assets/97279763/f2507a29-e93e-4813-8dd7-9fb719b13290)
